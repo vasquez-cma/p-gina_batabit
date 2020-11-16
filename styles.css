@@ -17,3 +17,56 @@ html{
     font-size: 62.5%;
     font-family:'DM Sans', sans-serif;
 }
+header{
+    position: relative;
+    width: 100%;
+    height: 330px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background: linear-gradient(207.8deg, #201E1C 16.69%, #F7931A 100%);
+}
+header img{
+    margin-bottom: 40px;
+}
+header h1{
+    width: 90%;
+    font-size: 2.6rem;
+    line-height: 2.8rem;
+    font-weight: bold;
+    color: white;
+}
+.header-content{
+    width: 90%;
+    font-size: 1.4rem;
+    margin: 20px auto;
+    margin-top: 30px;
+    font-weight: normal;
+    color: var(--off-white);
+}
+.header-button{
+    position: absolute;
+    width: 250px;
+    height: 50px;
+    padding-top: 16px;
+    top: calc(100% - 25px);
+    background-color: var(--off-white);
+    border-radius: 5px;
+    box-shadow: 0px 4px 8px rgba(89, 73, 30, 0.16);
+    text-decoration: none;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: var(--warm-black);   
+}
+.header-button span{
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    margin-left: 10px;
+    background-image: url('https://iili.io/FzDXkX.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
