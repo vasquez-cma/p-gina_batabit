@@ -17,9 +17,8 @@ html{
     font-size: 62.5%;
     font-family:'DM Sans', sans-serif;
 }
-body{
-    background-color: var(--off-white);
-}
+
+/* Creando estilos del header */
 header{
     position: relative;
     width: 100%;
@@ -72,4 +71,38 @@ header h1{
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center;
+}
+/* Empezando a crear estilos del main*/
+main{
+    width: 100%;
+    height: auto;
+    background-color: var(--off-white);
+}
+.main--card-container{
+    width: 100%;
+    height: auto;
+}
+.main--card-title-container{
+    width: 70%;
+    min-width:288px;
+    max-width: 500px;
+    text-align: center;
+    height: auto;
+    margin: 0 auto;
+}
+.main--card-title-container img{
+    margin-top: 50px;
+}
+.main--card-title-container .main--card-title{
+    margin-top: 20px;
+    font-size: 2.4rem;
+    font-weight: bold;
+    line-height: 2.4rem;
+    color: var(--warm-black);
+}
+.main--card-title-container .main--card-info{
+    margin-top: 20px;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #757575;
 }
