@@ -245,13 +245,13 @@ table td{
     font-weight: bold;
     color: #757575;
 }
-.card--time-container{
+.card--benefits-container{
     width: 90%;
     min-width: 290px;
     max-width: 410px;
     margin: 20px auto;
     padding: 15px;
-    height: 150px;
+    height: 160px;
     background-color: var(--black);
     border-radius: 10px;
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.16);
@@ -267,13 +267,58 @@ table td{
 .clock{
     background-image: url('https://iili.io/FACV4V.png');
 }
-.card--time-container .card--time-title{
+.card--benefits-container .card--time-title{
     margin: 10px 0;
     font-size: 2rem;
     font-weight: 500;
     color: white;
 }
-.card--time-container .card--time-content{
+.card--benefits-container .card--time-content{
+    font-size: 1.4rem;
+    font-weight: 500;
+    color: #757575;
+}
+/* Agregando los estilos a la tarjeta de beneficios eye */
+.eye{
+    background-image: url('https://iili.io/FAxeje.png');
+}
+.card--benefits-container .card--eye-title{
+    margin: 10px 0;
+    font-size: 2rem;
+    font-weight: 500;
+    color: white;
+}
+.card--benefits-container .card--eye-content{
+    font-size: 1.4rem;
+    font-weight: 500;
+    color: #757575;
+}
+/* Agregando los estilos a la tarjeta money */
+.money{
+    background-image: url('https://iili.io/FAzlSV.png');
+}
+.card--benefits-container .card--money-title{
+    margin: 10px 0;
+    font-size: 2rem;
+    font-weight: 500;
+    color: white;
+}
+.card--benefits-container .card--money-content{
+    font-size: 1.4rem;
+    font-weight: 500;
+    color: #757575;
+}
+/* Agregando estilos a la tarjeta check */
+.check{
+    background-image: url('https://iili.io/FAzgxn.png');
+}
+.card--benefits-container .card--check-title{
+    margin: 10px 0;
+    font-size: 2rem;
+    font-weight: 500;
+    color: white;
+}
+.card--benefits-container .card--check-content{
     font-size: 1.4rem;
     font-weight: 500;
     color: #757575;
