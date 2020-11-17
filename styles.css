@@ -203,9 +203,78 @@ table td{
     width: 200px;
     height: 30px;
     margin: 20px auto;
+    margin-bottom: 50px;
     padding: 6px;
     font-size: 1.2rem;
     font-weight: 500;
     background-color: #E7F5FF;
     border-radius: 5px;
+}
+/* Estilos de la tarjeta de beneficios */
+.main--benefits-container{
+    position: relative;
+    width: 100%;
+    height: auto;
+    background-color: var(--warm-black);
+}
+.main--benefits-container .Batatabit-logo{
+    position: absolute;
+    display: inline-block;
+    top: -20px;
+    left: calc(50% - 20px);
+    width: 40px;
+    height: 40px;
+    background-image: url('https://iili.io/FAfwps.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+.benefits--title-container{
+    text-align: center;
+}
+.benefits--title-container .benefits-title{
+    padding-top: 40px;
+    font-size: 2.2rem;
+    line-height: 2.4rem;
+    font-weight: bold;
+    color: white;
+}
+.benefits--title-container .benefits-content{
+    margin-top: 20px;
+    font-size: 1.6rem;
+    font-weight: bold;
+    color: #757575;
+}
+.card--time-container{
+    width: 90%;
+    min-width: 290px;
+    max-width: 410px;
+    margin: 20px auto;
+    padding: 15px;
+    height: 150px;
+    background-color: var(--black);
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.16);
+}
+.logo-cards{
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.clock{
+    background-image: url('https://iili.io/FACV4V.png');
+}
+.card--time-container .card--time-title{
+    margin: 10px 0;
+    font-size: 2rem;
+    font-weight: 500;
+    color: white;
+}
+.card--time-container .card--time-content{
+    font-size: 1.4rem;
+    font-weight: 500;
+    color: #757575;
 }
