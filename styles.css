@@ -340,3 +340,48 @@ table td{
     font-weight: bold;
     color: white;
 }
+/* Sección de planes */
+.plans--container{
+    width: 100%;
+    height: auto;
+    text-align: center;
+    background-color: var(--off-white);
+}
+.plans--container .plans--title{
+    padding-top: 20px;
+    font-size: 2.4rem;
+    line-height: 2.4rem;
+    color: var(--warm-black);
+}
+.plans--container .plans--content{
+    margin: 20px 0;
+    font-size: 1.6rem;
+    line-height: 1.8rem;
+    font-weight: bold;
+    color: #757575;
+}
+.plan--card-container{
+    position: relative;
+    width: 70%;
+    min-width: 280px;
+    max-width: 320px;
+    height: 160px;
+    margin: 0 auto;
+    background-color: white;
+    border-radius: 5px;
+}
+.plan--card-recomend{
+    position: absolute;
+    width: 150px;
+    height: 40px;
+    top: -10px;
+    left: calc(50% - 75px);
+    background-color: var(--bitcoin-orange);
+    border-radius: 10px;
+}
+.plan--card-recomend .recomended{
+    margin-top: 7px;
+    font-size: 1.6rem;
+    font-weight: bold;
+    color: white;
+}
