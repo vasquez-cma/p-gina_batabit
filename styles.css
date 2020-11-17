@@ -354,7 +354,8 @@ table td{
     color: var(--warm-black);
 }
 .plans--container .plans--content{
-    margin: 20px 0;
+    margin: 30px 0;
+    margin-bottom: 50px;
     font-size: 1.6rem;
     line-height: 1.8rem;
     font-weight: bold;
@@ -363,19 +364,20 @@ table td{
 .plan--card-container{
     position: relative;
     width: 70%;
-    min-width: 280px;
+    min-width: 240px;
     max-width: 320px;
-    height: 160px;
+    height: 280px;
     margin: 0 auto;
     background-color: white;
-    border-radius: 5px;
+    border-radius: 7px;
+    box-shadow: 0px 4px 8px rgba(89, 73, 30, 0.16);
 }
 .plan--card-recomend{
     position: absolute;
-    width: 150px;
-    height: 40px;
-    top: -10px;
-    left: calc(50% - 75px);
+    width: 140px;
+    height: 35px;
+    top: -15px;
+    left: calc(50% - 65px);
     background-color: var(--bitcoin-orange);
     border-radius: 10px;
 }
@@ -384,4 +386,53 @@ table td{
     font-size: 1.6rem;
     font-weight: bold;
     color: white;
+}
+.plan--card-container .plans--card-title{
+    padding-top: 40px;
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: var(--warm-black);
+}
+.plan--card-container .plans--card-price{
+   font-size: 5.6rem;
+   font-weight: bold;
+   letter-spacing: -0.4rem;
+   color: var(--black);
+}
+.plan--card-container .price-sign{
+    position: absolute;
+    top: calc(50% - 50px);
+    left: calc(50% - 45px);
+    font-size: 1.2rem;
+    
+}
+.plan--card-container .plans-card-prom{
+    font-size: 1.6rem;
+    font-weight: 700;
+    line-height: 1.8rem;  
+    color: #757575;
+}
+.plan--card-container button{
+    width: 200px;
+    height: 50px;
+    margin-top: 30px;
+    font-size: 1.8rem;
+    padding-top: 4px;
+    font-weight: bold;
+    color: var(--warm-black);
+    background-color: white;
+    border: 2px solid var(--bitcoin-orange);
+    border-radius: 4px;
+
+}
+.plan--card-container .arrow-right{
+    display: inline-block;
+    width: 30px;
+    height: 25px;
+    margin-left: 15px;
+    background-image: url('https://iili.io/F5uVVt.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    vertical-align: middle;
 }
