@@ -215,6 +215,7 @@ table td{
     position: relative;
     width: 100%;
     height: auto;
+    padding-bottom: 30px;
     background-color: var(--warm-black);
 }
 .main--benefits-container .Batatabit-logo{
@@ -322,4 +323,20 @@ table td{
     font-size: 1.4rem;
     font-weight: 500;
     color: #757575;
+}
+/* Estilos de la sección del background */
+.bitcoin-background{
+    width: 100%;
+    height: 50vh;
+    background-image: url('https://iili.io/FAaJHJ.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+}
+.bitcoin-background h3{
+    padding-top: 40px;
+    font-size: 2.4rem;
+    font-weight: bold;
+    color: white;
 }
