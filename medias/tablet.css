@@ -1,0 +1,9 @@
+.table--card-slider{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.scroll-container{
+    display: flex;
+    justify-content: center;
+}
