@@ -107,11 +107,14 @@ main{
     color: #757575;
 }
 /* Agregando los estilos a la tabla de monedas */
+
 .card--currency-container{
+    
     width: 100%;
     height: auto;
     margin-top: 20px;
     text-align: center;
+    
 }
 .card--currency-container .currency-title{
     font-size: 2.4rem;
@@ -119,11 +122,16 @@ main{
     color: var(--bitcoin-orange);
     margin: 20px auto;
 }
+
 .card--table-container{
     width: 70%;
     min-width: 280px;
     max-width: 380px;
     margin: 0 auto;
+}
+.table--card-slider{
+    display: flex;
+    align-items: center;
 }
 table{
     width: 100%;
@@ -203,7 +211,6 @@ table td{
     width: 200px;
     height: 30px;
     margin: 20px auto;
-    margin-bottom: 50px;
     padding: 6px;
     font-size: 1.2rem;
     font-weight: 500;
@@ -344,7 +351,7 @@ table td{
 .plans--container{
     width: 100%;
     height: auto;
-    padding-bottom: 80px;
+    padding-bottom: 40px;
     text-align: center;
     background-color: var(--off-white);
 }
@@ -362,16 +369,26 @@ table td{
     font-weight: bold;
     color: #757575;
 }
+.scroll-container{
+    display: flex;
+    height: 380px;
+    align-items: center;
+    overflow-x: scroll;
+    overscroll-behavior-x: contain;
+    scroll-snap-type:x proximity;
+    
+}
 .plan--card-container{
     position: relative;
     width: 70%;
     min-width: 240px;
     max-width: 320px;
     height: 280px;
-    margin: 0 auto;
+    margin: 10px 15px;
     background-color: white;
     border-radius: 7px;
     box-shadow: 0px 4px 8px rgba(89, 73, 30, 0.16);
+    scroll-snap-align: center;
 }
 .plan--card-recomend{
     position: absolute;
