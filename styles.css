@@ -492,3 +492,21 @@ footer .right p{
     font-size: 1.1rem;
     color: white;
 }
+@media screen and (min-width:800px){
+
+    .table--card-slider{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .scroll-container{
+        display: flex;
+        justify-content: center;
+    }
+}
+@media screen and (min-width:900px){
+    .benefits--conteiner{
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
