@@ -127,11 +127,16 @@ main{
     width: 70%;
     min-width: 280px;
     max-width: 380px;
-    margin: 0 auto;
+    margin: 10px 20px 30px;
+    scroll-snap-align: center;
 }
 .table--card-slider{
     display: flex;
     align-items: center;
+    overflow-x: scroll;
+    overscroll-behavior-x: contain;
+    scroll-snap-type: proximity;
+    
 }
 table{
     width: 100%;
@@ -205,7 +210,8 @@ table td{
     width: 70%;
     min-width: 280px;
     max-width: 380px;
-    margin: 0 auto;
+    margin: 10px 0 30px;
+    scroll-snap-align: center;
 }
 .commisions-date{
     width: 200px;
