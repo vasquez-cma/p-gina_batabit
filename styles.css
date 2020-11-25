@@ -510,3 +510,13 @@ footer .right p{
         flex-wrap: wrap;
     }
 }
+@media screen and (min-width:1230px){
+    .benefits--conteiner{
+        width: 80%;
+        display: flex;
+        margin: 0 auto;
+        
+       
+       
+    }
+}
